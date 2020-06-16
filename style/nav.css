@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 190px;
+    width: 7%;
+    background-color: #e7e5e6;
+    position: fixed;
+    bottom: 50%;
+    right: 4px; 
+    border-radius: 20px;
+    
+}

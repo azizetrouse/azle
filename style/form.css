@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    width: 80%;
+    height: 60px;
+    margin: 8px auto;
+    background-color: #e7e5e6;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #c7c7c7;
+}
+#search{
+    margin: 7px; 
+    outline: none;
+    border-radius: 20px;
+    width: 40%;
+    height: 40px;
+}
+#submit{
+    border: 2px solid #222121;
+    font-size: 18px;
+}

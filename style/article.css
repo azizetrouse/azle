@@ -1,0 +1,43 @@
+
+article{
+    width: 70%;
+    height: 100%;
+    float: left;
+    margin: 17px 10px;
+  
+}
+.box{   
+    width: 20%;
+    height: 201px;
+    display: inline-block;
+    border: 2px solid #d4c9c7;
+    overflow: hidden;
+    padding: 10px;
+    color: #ff0000;
+    border-radius: 20px;
+    margin: 6px; 
+    
+}  
+.img{
+    width: 90%;
+    height: 137px;
+    margin: auto;
+}
+ .img img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+  .informtion{
+    width: 90%;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.informtion h4{
+    /* position: relative;
+    bottom: 70px; */
+    line-height: 10px;
+    font-size: 12px;
+}
