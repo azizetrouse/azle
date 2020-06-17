@@ -4,7 +4,7 @@ $i = $_GET['p'];
 ?>
 <div class="card">
 <h4><?= $data ['pages'][$i] ['title'] ?></h4>
-<div class="img">
+<div class="imge">
 <img src="../image/<?= $data ['pages'][$i] ['img'] ?>" alt="">
 </div>
 <p><?= $data ['pages'][$i] ['p'] ?></p>
