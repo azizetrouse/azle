@@ -1,0 +1,24 @@
+header{
+    width: 80%;
+   height: 320px;
+   margin: auto; 
+   background-color: #fff;
+}
+.banner-1{ 
+   height: 300px;
+   width: 76%;margin: auto;
+   }
+.banner-1 img{ 
+  width: 100%;
+  height: 100%; 
+   }
+   @media  only screen and (min-width:300px) and (max-width:560px){
+      header {
+          height: 213px;
+      }
+      .banner-1 {
+        height: 100%;
+        width: 94%;
+        margin: auto;
+   }
+}

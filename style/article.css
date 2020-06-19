@@ -41,3 +41,45 @@ article{
     line-height: 10px;
     font-size: 12px;
 }
+a{
+    line-height: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+@media  only screen and (min-width:300px) and (max-width:560px){
+article{float: none;
+    width: 80%;
+    height: 100%;
+    margin: 17px auto;
+} 
+.box{   
+    width: 80%;
+    height: 201px;
+    display: inline-block;
+    border: 2px solid #d4c9c7;
+    overflow: hidden;
+    padding: 10px;
+    color: #ff0000;
+    border-radius: 20px;
+    margin: 6px; 
+    
+}  
+}
+    /* @media  only screen and (min-width:640px) and (max-width:760pxpx){
+        .box{   display: inline-block;
+            width: 44%;
+            height: 201px;
+        }
+    } */
+@media  only screen and (min-width:760px) and (max-width:1024px){
+    .box{   display: inline-block;
+        width: 40%;
+        height: 201px;
+    }
+}
+@media  only screen and (min-width:1024px) and (max-width:1336px){
+    .box{   display: inline-block;
+        width: 44%;
+        height: 201px;
+    }
+}
